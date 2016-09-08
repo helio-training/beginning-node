@@ -1,3 +1,5 @@
+const utilities = require('../utilities');
+
 class Rectangle {
   constructor(length, width) {
     this.length = length;
@@ -5,7 +7,7 @@ class Rectangle {
   }
 
   get area() {
-    return this.length * this.width;
+    return utilities.multiply(this.length, this.width);
   }
 }
 

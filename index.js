@@ -1,6 +1,6 @@
 const Shapes = require('./shapes');
 const square = new Shapes.Square(2);
-console.log(Shapes.name);
+console.log(square.area);
 
 
 // const Square = require('./shapes/square');
