@@ -1,6 +1,13 @@
-const Shapes = require('./shapes');
-const square = new Shapes.Square(2);
-console.log(square.area);
+const _ = require('lodash');
+
+const result = _.head([1,2,3]);
+
+console.log(result);
+
+
+// const Shapes = require('./shapes');
+// const square = new Shapes.Square(2);
+// console.log(square.area);
 
 
 // const Square = require('./shapes/square');

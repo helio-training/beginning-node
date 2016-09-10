@@ -1,0 +1,26 @@
+{
+  "name": "beginning-node",
+  "version": "1.0.0",
+  "description": "Discussions around node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://TylerGarlick@github.com/helio-training/beginning-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helio-training/beginning-node/issues"
+  },
+  "homepage": "https://github.com/helio-training/beginning-node#readme",
+  "dependencies": {
+    "lodash": "^4.15.0"
+  },
+  "devDependencies": {
+    "code": "^3.0.2",
+    "mocha": "^3.0.2"
+  }
+}
